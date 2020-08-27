@@ -1,0 +1,71 @@
+body{
+    margin-top: 20px;
+    background: lightcoral;
+
+   
+}
+
+.cuadro{
+    width: 400px;
+    height: auto;
+    background-color: lightsteelblue;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+#cabecera #title{
+    font-size: 30px;
+    font-style: inherit;
+    text-align: center;
+}
+
+#Logo{
+    padding-left: 125px;
+
+}
+
+#Logo img{
+    width: 150px;
+    border-radius: 666px;
+}
+
+.animation{
+    align-items: center;
+    animation-name: logo;
+    animation-duration: .8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;    
+    animation-direction: alternate;
+}
+
+@keyframes logo{
+    from{
+transform: scale(1);
+    }
+    to{
+transform: scale(1.1);
+    }
+}
+#list{
+    width: 100px;
+    height: auto;
+    padding: auto;
+    margin-left: 130px;
+}
+.boton{
+    padding: 3px;
+    margin-left: 25px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    width: 350px;
+    color: #006505;
+    background-color: #82b085;
+    border-radius: 15px;
+    border: 3px double rgba(46, 46, 160, 0.781);
+    margin-bottom: 5px;
+
+}
